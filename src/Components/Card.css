@@ -1,0 +1,24 @@
+.Card {
+  position: relative;
+}
+
+
+.Card img{
+  height:7rem;
+  margin: 1rem;
+}
+
+/* Vänder kortet så det inte syns. Har jag inte med detta så ser du korten och det vill man kanske inte ;). */
+.Card .FrontOfCardimage {
+  transform: rotateY(90deg);
+  position: absolute;
+}
+
+.TurnAroundCard .FrontOfCardimage {
+  transform: rotateY(0deg);
+}
+
+.BackOfCardimage {
+  height: 7rem;
+  margin: 1rem;
+}
